@@ -91,7 +91,7 @@ Features1.defaultProps = {
   feature2ImgAlt: 'Detailed Instructions Image',
   feature2ImgSrc:
     'https://images.unsplash.com/photo-1481261224858-2e88a19fc36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMTYwMDQwMHw&ixlib=rb-4.0.3&q=80&w=1080',
-  feature2Title: 'Apéndice',
+  feature2Title: 'Instructivo de Planillas',
   feature2Description: 'Descargue las Instrucciones paso a paso para el uso de las planillas de trabajo',
   feature1ImgSrc:
     'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyMTYwMDQwMHw&ixlib=rb-4.0.3&q=80&w=1080',
