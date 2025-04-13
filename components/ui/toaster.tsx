@@ -1,7 +1,20 @@
 "use client"
 
-import React from "react"
-import { useToast } from "../../hooks/use-toast"
+// This is a placeholder implementation of the useToast hook.
+// Replace this with your actual implementation.
+
+import React from "react";
+import { useState } from "react";
+
+export function useToast() {
+  const [toasts, setToasts] = useState<any[]>([]);
+
+  const addToast = (toast) => {
+    setToasts((prev) => [...prev, toast]);
+  };
+
+  return { toasts, addToast };
+}
 import {
   Toast,
   ToastClose,

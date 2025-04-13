@@ -1,0 +1,165 @@
+.article-page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.article-main {
+  flex: 1;
+}
+
+.article-container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.article-summary-section {
+  margin-bottom: 3rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.back-link:hover {
+  color: #4b5563;
+}
+
+.back-icon {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.article-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  margin-bottom: 1rem;
+}
+
+.article-summary {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.article-meta {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.article-content-section {
+  margin-bottom: 3rem;
+}
+
+.article-content {
+  color: #374151;
+}
+
+.article-download-section {
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.download-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.download-description {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.download-icon {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+.article-not-found {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.not-found-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.not-found-message {
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #e5e7eb;
+  padding: 1.5rem 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-text {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+@media (min-width: 768px) {
+  .article-container {
+    padding: 6rem 1.5rem;
+  }
+
+  .article-title {
+    font-size: 3rem;
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-title {
+    font-size: 2rem;
+  }
+}

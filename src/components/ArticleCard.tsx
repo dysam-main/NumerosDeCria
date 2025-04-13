@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { Card, CardContent, CardFooter, CardHeader } from "./Card"
 import { Button } from "./Button"
 import type { Article } from "../data/articles"
+import "./ArticleCard.css"
 
 interface ArticleCardProps {
   article: Article
@@ -9,24 +10,24 @@ interface ArticleCardProps {
 
 export function ArticleCard({ article }: ArticleCardProps) {
   return (
-    <Card className="overflow-hidden">
-      <div className="relative h-48 w-full">
+    <Card className="article-card">
+      <div className="article-image-container">
         <img
-          src={article.image || "/placeholder.svg"}
+          src={article.image || "https://via.placeholder.com/600x400"}
           alt={article.title}
-          className="absolute inset-0 h-full w-full object-cover"
+          className="article-image"
         />
       </div>
       <CardHeader>
-        <h3 className="text-xl font-bold">{article.title}</h3>
+        <h3 className="article-title">{article.title}</h3>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-500 dark:text-gray-400">{article.summary}</p>
+        <p className="article-summary">{article.summary}</p>
       </CardContent>
       <CardFooter>
-        <Button asChild variant="ghost" className="w-full">
-          <Link to={`/articles/${article.slug}`} className="w-full flex items-center justify-center">
-            Read More
+        <Button asChild variant="ghost" className="read-more-button">
+          <Link to={`/articles/${article.slug}`} className="read-more-link">
+            Leer
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -37,7 +38,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="ml-2 h-4 w-4"
+              className="arrow-icon"
             >
               <path d="M5 12h14" />
               <path d="m12 5 7 7-7 7" />

@@ -2,32 +2,30 @@
 
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import "./Header.css"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="w-full border-b">
-      <div className="container flex h-16 items-center px-4 md:px-6">
-        <Link to="/articles" className="flex items-center gap-2">
-          <span className="text-xl font-bold">Knowledge Hub</span>
+    <header className="header">
+      <div className="container header-container">
+        <Link to="/articles" className="logo">
+          <span>Números de la Cría</span>
         </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <div className="hidden md:flex gap-6">
-            <Link to="/articles" className="text-sm font-medium hover:underline underline-offset-4">
-              Articles
+        <nav className="nav">
+          <div className="desktop-nav">
+            <Link to="/articles" className="nav-link">
+              Publicaciones
             </Link>
-            <Link to="#" className="text-sm font-medium hover:underline underline-offset-4">
+            {/* <Link to="#" className="nav-link">
               Categories
             </Link>
-            <Link to="#" className="text-sm font-medium hover:underline underline-offset-4">
+            <Link to="#" className="nav-link">
               About
-            </Link>
+            </Link> */}
           </div>
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden inline-flex items-center justify-center rounded-md text-sm font-medium h-10 px-4 py-2 bg-transparent hover:bg-gray-100"
-          >
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="menu-button" aria-label="Toggle menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -38,24 +36,22 @@ export function Header() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="h-5 w-5"
             >
               <line x1="4" x2="20" y1="12" y2="12" />
               <line x1="4" x2="20" y1="6" y2="6" />
               <line x1="4" x2="20" y1="18" y2="18" />
             </svg>
-            <span className="sr-only">Toggle menu</span>
           </button>
         </nav>
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-y-0 right-0 z-50 w-full bg-white p-6 shadow-lg">
-          <div className="flex items-center justify-between mb-8">
-            <Link to="/articles" className="flex items-center gap-2">
-              <span className="text-xl font-bold">Knowledge Hub</span>
+        <div className="mobile-menu">
+          <div className="mobile-menu-header">
+            <Link to="/articles" className="logo" onClick={() => setIsMenuOpen(false)}>
+              <span>Números de la Cría</span>
             </Link>
-            <button onClick={() => setIsMenuOpen(false)} className="rounded-md p-2 hover:bg-gray-100">
+            <button onClick={() => setIsMenuOpen(false)} className="close-button" aria-label="Close menu">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -66,24 +62,22 @@ export function Header() {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="h-6 w-6"
               >
                 <path d="M18 6 6 18" />
                 <path d="m6 6 12 12" />
               </svg>
-              <span className="sr-only">Close menu</span>
             </button>
           </div>
-          <nav className="grid gap-6 text-lg font-medium">
-            <Link to="/articles" className="hover:underline" onClick={() => setIsMenuOpen(false)}>
-              Articles
+          <nav className="mobile-nav">
+            <Link to="/articles" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>
+              Publicaciones
             </Link>
-            <Link to="#" className="hover:underline" onClick={() => setIsMenuOpen(false)}>
+            {/* <Link to="#" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>
               Categories
             </Link>
-            <Link to="#" className="hover:underline" onClick={() => setIsMenuOpen(false)}>
+            <Link to="#" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>
               About
-            </Link>
+            </Link> */}
           </nav>
         </div>
       )}
