@@ -18,56 +18,53 @@ export const articles: Article[] = [
     title: "Los Números de la Cría",
     summary: "Una guía para entender la relación entre las variables productivas y económicas en los sistemas de cría bovina.",
     content: `<h2>¿Qué es "Los Números de la Cría"?</h2>
-      <p>
-        Este libro es una guía técnico-económica que busca responder a una pregunta fundamental: 
-        ¿cómo se traduce el manejo productivo en resultados económicos dentro de los sistemas de cría bovina?
-      </p>
+            <p>
+              Este libro es una guía técnico-económica que busca responder a una pregunta fundamental: 
+              ¿cómo se traduce el manejo productivo en resultados económicos dentro de los sistemas de cría bovina?
+            </p>
 
-      <p>
-        A través de un enfoque claro y práctico, se abordan los principales indicadores que definen la eficiencia del sistema: 
-        porcentaje de destete, tasa de preñez, intervalos entre partos, y peso al destete. 
-        Cada uno de estos indicadores es analizado no solo desde su impacto biológico, 
-        sino también desde su efecto directo en los números del negocio ganadero.
-      </p>
+            <p>
+              A través de un enfoque claro y práctico, se abordan los principales indicadores que definen la eficiencia del sistema: 
+              mortandad y morbilidades expresadas por el porcentaje de preñez; porcentaje y peso de destete de los terneros; 
+              y peso de las madres. El análisis asume que la carga animal es adecuada a la situación forrajera, para aislar el efecto 
+              de las variables productivas sin superposición con factores de manejo forrajero. Cada uno de estos indicadores se 
+              interpreta no solo desde su impacto biológico, sino también desde su efecto directo en los números del negocio ganadero.
+            </p>
 
-      <h2>¿Por qué es importante entender estos números?</h2>
-      <p>
-        Porque en un entorno productivo con márgenes cada vez más ajustados, conocer 
-        el impacto económico de cada decisión técnica es fundamental. Este libro propone 
-        que la eficiencia reproductiva y el manejo del rodeo no pueden analizarse 
-        por separado de los resultados económicos.
-      </p>
+            <p>
+              <strong>Diferencias entre ediciones:</strong> en la primera edición se incluía como apéndice el capítulo con las planillas para 
+              la evaluación de procreos. En la segunda edición, estas se han eliminado del cuerpo del libro y se encuentran como 
+              un capítulo aparte, descargable de forma independiente.
+            </p>
 
-      <h2>Contenidos principales</h2>
-      <ul>
-        <li><strong>Conceptos clave:</strong> explicación de los indicadores productivos fundamentales y cómo calcularlos.</li>
-        <li><strong>Modelos económicos:</strong> estimaciones numéricas concretas del impacto de variaciones en preñez, destete, peso al destete, etc.</li>
-        <li><strong>Simulaciones:</strong> escenarios comparativos que ayudan a visualizar los efectos de distintas estrategias de manejo.</li>
-        <li><strong>Tablas y gráficos:</strong> herramientas visuales para interpretar los datos de forma intuitiva.</li>
-      </ul>
+            <h2>¿Por qué es importante entender estos números?</h2>
+            <p>
+              Porque en un entorno productivo con márgenes muy variables (como se muestra en el gráfico respectivo), 
+              conocer el impacto económico de cada decisión técnica es fundamental. Este libro propone que la eficiencia 
+              reproductiva y el manejo del rodeo no pueden analizarse por separado de los resultados económicos.
+            </p>
 
-      <h2>¿A quién está dirigido?</h2>
-      <p>
-        A productores ganaderos, asesores técnicos, estudiantes de ciencias agropecuarias, 
-        y a toda persona interesada en comprender la lógica económica detrás de las decisiones productivas 
-        en la cría de bovinos. No se requieren conocimientos avanzados de economía para seguir los contenidos.
-      </p>
+            <h2>Contenidos principales</h2>
+            <ul>
+              <li><strong>Conceptos clave:</strong> explicación de los indicadores productivos fundamentales, con especial énfasis en la dinámica del rodeo y su cálculo.</li>
+              <li><strong>Modelos económicos:</strong> estimaciones numéricas utilizando el Margen Bruto de la actividad, sin entrar en detalles específicos de análisis de empresas.</li>
+              <li><strong>Simulaciones:</strong> escenarios comparativos que visualizan los efectos de distintas estrategias de manejo, comparando un modelo base con sus variaciones.</li>
+              <li><strong>Tablas y gráficos:</strong> herramientas visuales para interpretar los datos de forma clara e intuitiva.</li>
+            </ul>
 
-      <h2>Lo que vas a encontrar</h2>
-      <ul>
-        <li>Una base conceptual sólida pero accesible.</li>
-        <li>Ejemplos prácticos con datos reales y simulaciones numéricas.</li>
-        <li>Consejos para tomar decisiones basadas en datos.</li>
-        <li>Una visión integradora entre producción y economía.</li>
-      </ul>
+            <h2>¿A quién está dirigido?</h2>
+            <p>
+              A productores ganaderos, asesores técnicos, estudiantes de ciencias agropecuarias y a toda persona interesada 
+              en comprender la lógica económica detrás de las decisiones productivas en la cría de bovinos. No se requieren 
+              conocimientos avanzados de economía para aprovechar sus contenidos.
+            </p>
 
-      <h2>Conclusión</h2>
-      <p>
-        "Los Números de la Cría" es mucho más que un manual técnico: es una invitación a mirar 
-        el sistema de cría con una lupa económica, y a entender que los resultados no son casuales, 
-        sino el producto directo de nuestras decisiones de manejo.
-      </p>
-      `,
+            <h2>Lo que vas a encontrar</h2>
+            <ul>
+              <li>Una base conceptual sólida pero accesible.</li>
+              <li>Ejemplos prácticos de simulaciones numéricas.</li>
+              <li>Una visión integradora entre producción y economía.</li>
+            </ul>`,
     image: "/img/los-numeros-de-la-cria.png?height=400&width=600",
     downloadUrl: "/downloads/los-numeros-de-la-cria.pdf",
     downloadUrl2:"",

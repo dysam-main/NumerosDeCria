@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
-import { Button } from "../components/Button"
-import "./LandingPage.css"
+import { Link } from "react-router-dom";
+import { Button } from "../components/Button";
+import { LoanSimulator } from "../features/loan-simulator/LoanSimulator"; // Import the simulator
+import "./LandingPage.css";
 
 export default function LandingPage() {
   return (
@@ -39,6 +40,12 @@ export default function LandingPage() {
                 </Button>
               </div>
             </div>
+          </div>
+        </section>
+        {/* Loan Simulator Section */}
+        <section className="loan-simulator-section py-8 md:py-12"> {/* Added padding */}
+          <div className="container">
+             <LoanSimulator />
           </div>
         </section>
         {/* <section className="features-section">
