@@ -77,7 +77,55 @@ export const articles: Article[] = [
     title: "Manual de Uso y Planillas",
     summary: "Guía detallada para la correcta utilización de las planillas electrónicas que evalúan la eficiencia reproductiva del rodeo.",
     content: `
-      <h2>¿Qué es este manual?</h2>\n<p>Este documento es una guía exhaustiva para el uso de las planillas electrónicas <strong>Procreos Completos.xls</strong>, una herramienta diseñada para evaluar el desempeño reproductivo del rodeo desde el servicio hasta el destete.</p>\n\n<h2>Objetivo</h2>\n<p>Brindar a técnicos y productores una metodología clara y sistematizada para registrar y analizar los datos reproductivos del rodeo, permitiendo identificar pérdidas, su origen, y tomar decisiones informadas para mejorar la eficiencia.</p>\n\n<h2>Temas abordados</h2>\n<ul>\n  <li><strong>Diferenciación entre evaluación biológica y económica</strong>: cómo interpretar correctamente indicadores como el % de destete.</li>\n  <li><strong>Importancia de los datos reales</strong>: evita inferencias basadas en existencias contables.</li>\n  <li><strong>Identificación de pérdidas reproductivas</strong>: detección de abortos, malpartos, mortalidad de madres y terneros.</li>\n  <li><strong>Uso de planillas auxiliares</strong>: recomendaciones para el trabajo de campo, según el tipo de registro que se desee realizar.</li>\n  <li><strong>Interpretación de resultados</strong>: incluye análisis bio-económico y reproductivo a partir de los datos cargados.</li>\n</ul>\n\n<h2>Componentes del sistema de planillas</h2>\n<p>El archivo principal incluye:</p>\n<ul>\n  <li><strong>Planilla Nº 1</strong>: carga de datos del rodeo, desde servicio hasta destete.</li>\n  <li><strong>Planilla Nº 2</strong>: para uso manual durante la parición, facilita el registro diario de eventos.</li>\n  <li><strong>Planillas auxiliares</strong>: “Servicios.xls” y “Pariciones.xls” para trabajar etapas de forma separada.</li>\n</ul>\n\n<h2>Requisitos para su correcta utilización</h2>\n<ul>\n  <li>Registro preciso y diario de la información en campo.</li>\n  <li>Capacitación del personal sobre qué registrar y cómo.</li>\n  <li>Evitar la pérdida de identidad del rodeo durante el ciclo reproductivo.</li>\n  <li>Completar adecuadamente pesos de madres y terneros para obtener resultados consistentes.</li>\n</ul>\n\n<h2>Interpretación de resultados</h2>\n<p>El sistema genera reportes automáticos con análisis desde dos enfoques:</p>\n<ul>\n  <li><strong>Eficiencia Global del Rodeo</strong>: kilos de ternero logrados por madre y % de eficiencia productiva.</li>\n  <li><strong>Resumen de Pérdidas Reproductivas</strong>: pérdidas por servicio, gestación y cría.</li>\n  <li><strong>Indicadores reproductivos ajustados</strong>: preñez ajustada según duración del servicio.</li>\n</ul>\n\n<h2>¿A quién está dirigido?</h2>\n<p>A productores, asesores y técnicos interesados en mejorar la eficiencia reproductiva del rodeo de cría a través de un análisis detallado y profesional de los datos del campo.</p>\n\n<h2>Conclusión</h2>\n<p>Este manual permite llevar a cabo un control riguroso y útil de la información reproductiva, ofreciendo herramientas para identificar puntos críticos y tomar decisiones acertadas basadas en datos reales. El correcto uso de estas planillas puede marcar una diferencia significativa en la rentabilidad del sistema de cría.</p>`,
+                <h2>Instrucciones de Uso y Planillas</h2>
+            <p>Guía detallada para la correcta utilización de las planillas electrónicas que evalúan la eficiencia reproductiva del rodeo.</p>
+            <p>Para usar las planillas de evaluación de procreos, consultar el capítulo específico. El mismo contiene dos archivos: <strong>“apéndice.pdf”</strong> y <strong>“instrucciones resumen.pdf”</strong>, uno más detallado que el otro.</p>
+
+            <h2>¿Qué es este manual?</h2>
+            <p>Este documento es una guía exhaustiva para el uso de las planillas electrónicas <strong>Procreos Completos.xls</strong>, una herramienta diseñada para evaluar el desempeño reproductivo del rodeo desde el servicio hasta el destete.</p>
+
+            <h2>Objetivo</h2>
+            <p>Brindar a técnicos y productores una metodología clara y sistematizada para registrar y analizar los datos reproductivos del rodeo, permitiendo identificar distintas pérdidas, que nos ayuden a sospechar su origen, y tomar decisiones informadas para mejorar la eficiencia.</p>
+
+            <h2>Temas abordados</h2>
+            <ul>
+              <li><strong>Diferenciación entre evaluación biológica y económica:</strong> cómo interpretar correctamente indicadores con dos resultados diferentes.</li>
+              <li><strong>Importancia de los datos reales:</strong> evita inferencias basadas en existencias administrativas o contables.</li>
+              <li><strong>Identificación de pérdidas reproductivas:</strong> detección de abortos, malpartos, mortalidad de madres y terneros.</li>
+              <li><strong>Uso de planillas auxiliares:</strong> recomendaciones para el trabajo de campo, según el tipo de registro que se desee realizar.</li>
+              <li><strong>Interpretación de resultados:</strong> incluye análisis bio-económico y reproductivo a partir de los datos cargados.</li>
+            </ul>
+
+            <h2>Componentes del sistema de planillas</h2>
+            <ul>
+              <li><strong>Archivo Excel:</strong> <em>“Procreos Completos.xls”</em>, para la carga de datos del rodeo, desde servicio hasta destete.</li>
+              <li><strong>Archivos PDF:</strong> <em>“Accesoria2A.pdf”</em> y <em>“Accesoria2B.pdf”</em>, para uso manual durante la parición. Permiten registrar eventos diarios de dos maneras diferentes, pudiendo usarse una u otra según la conveniencia del caso.</li>
+              <li><strong>Archivos auxiliares:</strong> <em>“Servicios.xls”</em> y <em>“Pariciones.xls”</em>, para trabajar etapas de forma separada cuando el manejo del campo no permite identificar los rodeos desde el servicio hasta el destete.</li>
+            </ul>
+
+            <h2>Requisitos para su correcta utilización</h2>
+            <ul>
+              <li>Registro preciso y diario de la información en campo.</li>
+              <li>Capacitación del personal sobre qué registrar y cómo.</li>
+              <li>Evitar la pérdida de identidad del rodeo durante el ciclo reproductivo.</li>
+              <li>Completar adecuadamente pesos de madres y terneros para obtener resultados que ayuden a ver la eficiencia global del rodeo.</li>
+            </ul>
+
+            <h2>Interpretación de resultados</h2>
+            <p>El sistema genera reportes automáticos con análisis desde dos enfoques:</p>
+            <ul>
+              <li><strong>Eficiencia Global del Rodeo:</strong> kilos de ternero logrados por madre y porcentaje de eficiencia productiva.</li>
+              <li><strong>Resumen de Pérdidas Reproductivas:</strong> pérdidas por servicio, gestación y terneros.</li>
+              <li><strong>Indicadores reproductivos ajustados:</strong> preñez ajustada según duración del servicio, útil para comparar rodeos con diferentes duraciones de servicios naturales.</li>
+            </ul>
+
+            <h2>¿A quién está dirigido?</h2>
+            <p>A productores, asesores y técnicos interesados en mejorar la eficiencia reproductiva del rodeo de cría a través de un análisis detallado y profesional de los datos del campo.</p>
+
+            <h2>Conclusión</h2>
+            <p>Este manual permite llevar a cabo un control riguroso y útil de la información reproductiva, ofreciendo herramientas para identificar puntos críticos y tomar decisiones acertadas basadas en datos reales. El correcto uso de estas planillas puede marcar una diferencia significativa en los márgenes del sistema de cría.</p>
+  
+    `,
     image: "/img/manual-de-uso.png?height=400&width=600",
     downloadUrl: "/downloads/manual-de-uso.pdf",
     downloadUrl2:"/downloads/planillas-de-trabajo.zip",
