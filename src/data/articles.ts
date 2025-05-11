@@ -136,12 +136,19 @@ export const articles: Article[] = [
     id: 3,
     slug: "descarte-por-edad",
     title: "Descarte por Edad",
-    summary: "Análisis del impacto del descarte por edad y otras pérdidas en la reposición de vacas en rodeos de cría.",
+    summary: "Análisis del impacto del descarte por edad y su dependencia de otras pérdidas en la reposición de vacas en rodeos de cría.",
     content: `
       <h2>Descarte por Edad en los Rodeos de Cría</h2>
-      <p>Este artículo analiza el impacto del descarte por edad en los rodeos de cría vacuna, resaltando la importancia de considerar otras pérdidas que afectan la permanencia de las vacas en el sistema productivo. A partir de un trabajo publicado hace 40 años y aún vigente, se expone cómo las decisiones sobre el descarte no deben tomarse de manera aislada, ya que existen múltiples factores —como vacas vacías, secas, mortandad, selección y ventas— que modifican los porcentajes reales de descarte.</p>
+      <p>
+        Este artículo analiza el impacto del descarte por edad en los rodeos de cría vacuna, resaltando la importancia de considerar otras pérdidas que afectan la permanencia de las vacas en el sistema productivo. 
+        A partir de un trabajo publicado hace 40 años, se expone cómo las decisiones sobre el descarte no deben tomarse de manera aislada, ya que existen múltiples factores —como vacas vacías, secas, mortandad, selección y ventas— 
+        que modifican los porcentajes reales de descarte y su correspondiente reposición.
+      </p>
 
-      <p>Además, se discute la relación entre la longevidad productiva de las vacas y la necesidad de reposición, mostrando cómo extender la vida útil del rodeo puede reducir costos y mejorar la eficiencia. El artículo propone una mirada integral, combinando datos técnicos con conceptos de manejo, para facilitar la toma de decisiones estratégicas en los sistemas de cría.</p>
+      <p>
+        Además, se discute la relación entre la longevidad productiva de las vacas y la necesidad de reposición, mostrando cómo extender la vida útil del rodeo puede reducir costos y mejorar la eficiencia. 
+        El artículo propone una mirada integral, combinando datos técnicos con conceptos de manejo, para facilitar la toma de decisiones estratégicas en los sistemas de cría.
+      </p>
       `,
     image: "/img/descarte-por-edad.png?height=400&width=600",
     downloadUrl: "/downloads/descarte-por-edad.pdf",
@@ -156,18 +163,25 @@ export const articles: Article[] = [
     summary: "Análisis del equivalente vaca (EV) para distintas condiciones de manejo en sistemas de cría.",
     content: `
       <h2>EV para Vacas de Cría: Análisis y Simulación</h2>
-      <p>Este artículo presenta el análisis del Equivalente Vaca (EV) aplicado a sistemas de cría bovina, con el objetivo de evaluar la eficiencia productiva en diferentes escenarios de manejo. Se consideran tanto los requerimientos nutricionales de la vaca como del ternero durante todo el año, analizando variaciones mensuales y promedios anuales.</p>
-
-      <h2>Análisis de Lactancias y Destetes</h2>
-      <p>Se exploran diferentes duraciones de lactancia, incluyendo escenarios de destete precoz de 0, 1 o 2 meses. Aunque poco frecuentes, estos casos permiten observar el impacto que tienen sobre el EV, aportando información útil para la toma de decisiones en el manejo reproductivo.</p>
+      <p>
+        Este artículo presenta el concepto de Equivalente Vaca (EV) aplicado a sistemas de cría bovina, con el objetivo de ajustar la carga animal a la oferta forrajera. 
+        Se consideran tanto los requerimientos nutricionales de la vaca como del ternero durante todo el año, analizando variaciones mensuales y promedios anuales.
+      </p>
 
       <h2>Variaciones de Peso</h2>
-      <p>El estudio contempla vacas con pesos de 420 kg y 450 kg para mostrar cómo influyen en el cálculo del EV. Esto permite proyectar estrategias de alimentación y selección en función del tamaño corporal del rodeo.</p>
+      <p>
+        El estudio contempla vacas con pesos de 420 kg y 450 kg para mostrar cómo influyen en el cálculo del EV.
+      </p>
+
+      <h2>Análisis de Lactancias y Destetes</h2>
+      <p>
+        Se exploran diferentes duraciones de lactancia, simulando escenarios de destete precoz con duraciones de entre 0 y 6 meses.
+      </p>
 
       <h2>Simulador Interactivo</h2>
-      <p>Como complemento, se incluye un archivo de Excel interactivo que simula el caso de una vaca promedio de 1 EV anual. Este archivo permite modificar parámetros clave fácilmente, gracias a la organización en recuadros y la diferenciación visual de las fórmulas (en color azul).</p>
-
-      <p>Este enfoque proporciona una herramienta práctica y flexible para productores y técnicos, permitiendo adaptar el sistema a distintos objetivos productivos.</p>
+      <p>
+        Como complemento, se incluye un archivo de Excel interactivo que simula el caso de una vaca promedio de 1 EV anual.
+      </p>
       `,
     image: "/img/ev-vacas-cria.png?height=400&width=600",
     downloadUrl: "/downloads/ev-vacas-cria.pdf",
@@ -182,21 +196,30 @@ export const articles: Article[] = [
     summary:
       "Propuesta de un tamaño para las madres, con foco en la relación peso al nacer - peso adulto",
     content: `
-
     <h2>Tamaño ideal para vacas de cría</h2>
-    <p>La experiencia acumulada en la observación de rodeos de cría llevó a definir un rango de peso adulto ideal para las madres: entre 400 y 430 kg. Aunque el plantel cumple con este criterio, se observa una gran dispersión de pesos al nacer, dependiendo del toro utilizado.</p>
+    <p>
+      La experiencia acumulada en la observación de rodeos de cría llevó a definir un rango de peso adulto ideal para las madres: entre 400 y 430 kg. 
+      Aunque el plantel cumple con este criterio, se observa una gran dispersión de pesos al nacer, dependiendo del toro utilizado.
+    </p>
 
     <h2>Peso al nacer como herramienta de selección</h2>
-    <p>Dado que el tamaño adulto no puede seleccionarse directamente por el tiempo que implica, se utiliza el peso al nacer como indicador, ya que existe una correlación positiva entre este y el peso adulto. La clave es encontrar un equilibrio: terneros con potencial para alcanzar el tamaño buscado, pero sin generar distocias.</p>
+    <p>
+      Dado que el tamaño adulto no puede seleccionarse directamente por el tiempo que implica, se utiliza el peso al nacer como indicador, ya que existe una correlación positiva entre este y el peso adulto. 
+      La clave es encontrar un equilibrio: terneros con potencial para alcanzar el tamaño buscado, pero sin generar distocias.
+    </p>
 
     <h2>Relación peso ternero - madre</h2>
-    <p>Un gráfico compartido por Rodolfo Peralta en el grupo veterinario GREVET muestra cómo aumentan las distocias cuando el peso al nacer supera el 7% del peso de la madre. A partir de allí se elaboró una tabla con pesos de referencia para minimizar riesgos.</p>
+    <p>
+      Un gráfico compartido por Rodolfo Peralta en el grupo veterinario GREVET muestra cómo aumentan las distocias cuando el peso al nacer supera el 7% del peso de la madre. 
+      A partir de allí se elaboró una tabla con pesos de referencia para minimizar riesgos.
+    </p>
 
     <h2>Aplicación y limitaciones</h2>
-    <p>La tabla propuesta permite identificar desviaciones respecto al peso ideal de la madre según el peso del ternero. Aunque es una abstracción fisiológica, su utilidad está en detectar patrones, considerando que factores como la raza, el clima o la nutrición también inciden.</p>
-  
-      
-`,
+    <p>
+      La tabla propuesta permite identificar desviaciones respecto al peso ideal de la madre según el peso del ternero. 
+      Aunque es una abstracción fisiológica, su utilidad está en detectar patrones, considerando que factores como la raza, el clima o la nutrición también inciden.
+    </p>
+    `,
     image: "/img/tamano-vacas-cria.png?height=400&width=600",
     downloadUrl: "/downloads/tamano-vacas-cria.pdf",
     downloadUrl2:"",
