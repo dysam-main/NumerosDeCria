@@ -127,7 +127,7 @@ export const articles: Article[] = [
   
     `,
     image: "/img/manual-de-uso.png?height=400&width=600",
-    downloadUrl: "/downloads/manual-de-uso.pdf",
+    downloadUrl: "/downloads/manual-de-uso.zip",
     downloadUrl2:"/downloads/planillas-de-trabajo.zip",
     download2:"planillas-de-trabajo",
     publishedAt: "2023-07-22",
