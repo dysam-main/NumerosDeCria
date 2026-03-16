@@ -152,7 +152,7 @@ export const articles: Article[] = [
       `,
     image: "/img/descarte-por-edad.png?height=400&width=600",
     downloadUrl: "/downloads/descarte-por-edad.pdf",
-    downloadUrl2:"/downloads/descarte-por-edad-tablas.xlsx",
+    downloadUrl2:"",
     download2:"tablas",
     publishedAt: "2023-08-10",
   },
