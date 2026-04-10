@@ -73,7 +73,7 @@ export const articles: Article[] = [
   },
   {
     id: 2,
-    slug: "planillas-de-trabajo",
+    slug: "instrucciones",
     title: "Manual de Uso y Planillas",
     summary: "Guía detallada para la correcta utilización de las planillas electrónicas que evalúan la eficiencia reproductiva del rodeo.",
     content: `
@@ -127,7 +127,7 @@ export const articles: Article[] = [
   
     `,
     image: "/img/manual-de-uso.png?height=400&width=600",
-    downloadUrl: "/downloads/manual-de-uso.zip",
+    downloadUrl: "/downloads/Instrucciones.zip",
     downloadUrl2:"/downloads/planillas-de-trabajo.zip",
     download2:"planillas-de-trabajo",
     publishedAt: "2023-07-22",
